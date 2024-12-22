@@ -1,0 +1,46 @@
+@media (max-width: 376px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 10%;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo {
+        width: 125%;
+    }
+
+    .paragrafo-informativo {
+        width: 100%;
+    }
+
+    .registrar {
+        height: 40px;
+        width: 70%;
+    }
+
+    footer {
+        margin-top: 25%;
+        justify-content: center;
+    }
+
+    .redes-sociais {
+        width: 14%;
+    }
+}

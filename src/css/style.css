@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    height: 100vh;
+    padding: 3% 5%;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 4.5%;
+}
+
+.logo {
+    width: 15%;
+}
+
+main {
+    display: flex;
+}
+
+.ilustracao {
+    margin-right: 4%;
+}
+
+.informacoes {
+    padding-top: 3%;
+}
+
+.titulo {
+    color: #fff;
+    font-weight: 600;
+    width: 60%;
+    margin-bottom: 7%;
+}
+
+.paragrafo-informativo {
+    color: #fff;
+    font-weight: 400;
+    width: 76%;
+    margin-bottom: 5%;
+}
+
+.registrar {
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    width: 30%;
+    height: 10%;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 125%;
+}
+
+.registrar:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    transition: color 300ms;
+    transition: background-color 300ms;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 41.46px;
+}
+
+.redes-sociais {
+    height: 100%;
+    width: 3%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.redes-sociais>svg {
+    color: #fff;
+}
+
+.redes-sociais:hover {
+    border-color: hsl(300, 69%, 71%);
+    transition: border-color 300ms;
+}
+
+.redes-sociais:hover>svg {
+    color: hsl(300, 69%, 71%);
+    transition: border-color 300ms;
+}
